@@ -3,8 +3,8 @@ let passport = {
     surname: "Petrov",
 };
 
-let yourPassport = Object.assign({}, passport);
-yourPassport.name = "Ivan";
+let passport2 = {...passport,
+                 name:"Ivan"};
 
-console.log("Original Passport:", passport);
-console.log("Your Passport:", yourPassport);
+console.log(passport);
+console.log(passport2);
