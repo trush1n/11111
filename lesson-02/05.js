@@ -3,7 +3,7 @@ let passport = {
     surname: "Petrov",
 };
 
-let passport2 = {...passport }
+let passport2 = {...passport.name:"Ivan" }
 passport2.name = "Ivan"
 
 console.log(passport);
