@@ -8,10 +8,13 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
 
+function isEven(num) {
+    return num % 2 === 0;
+}
 for (let i = 0; i < numbers.length; i++) {
     for (let j = 0; j < numbers[i].length; j++) {
-        if (numbers[i][j] % 2 !== 0) { // Проверяем, является ли число нечетным
-            numbers[i][j] = null; // Заменяем нечетное число на null
+        if (!isEven(numbers[i][j])) {
+            numbers[i][j] = null;
         }
     }
 }
