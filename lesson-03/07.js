@@ -8,6 +8,12 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
 
-const res = numbers.map(el => el.filter(number => number % 2 === 0));
+for (let i = 0; i < numbers.length; i++) {
+    for (let j = 0; j < numbers[i].length; j++) {
+        if (numbers[i][j] % 2 !== 0) { // Проверяем, является ли число нечетным
+            numbers[i][j] = null; // Заменяем нечетное число на null
+        }
+    }
+}
 
-console.log(res);
+console.log(numbers);
