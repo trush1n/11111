@@ -8,15 +8,14 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
 
-function isEven(num) {
-    return num % 2 === 0;
+
+function examination(number) {
+    return number % 2 === 0;
 }
-for (let i = 0; i < numbers.length; i++) {
-    for (let j = 0; j < numbers[i].length; j++) {
-        if (!isEven(numbers[i][j])) {
-            numbers[i][j] = null;
-        }
-    }
+function filterArray(arr) {
+    return arr.map(el => el.filter(examination));
 }
 
-console.log(numbers);
+const filteredArray = filterArray(numbers);
+console.log(filteredArray);
+
