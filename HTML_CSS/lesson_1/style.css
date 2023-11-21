@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    background: #EFF2F9;
+    height: 100vh;
+}
+.card {
+    background: #FFF;
+    box-shadow: 20px 20px 40px 0px rgba(81, 91, 117, 0.25);
+    width: 1170px;
+    height: 800px;
+}
+.product-image-block{
+    border-right: 2px solid rgba(20, 20, 20, 0.15);
+    width: 540px ;
+}
+.selected {
+box-shadow: 8px 8px 16px 0px rgba(81, 91, 117, 0.25);
+width: 80px ;
+height: 80px;
+}
+.main-title {
+    color: rgba(20, 20, 20, 0.90);
+    font-family: Montserrat, sans-serif;
+    font-size: 38px;
+    font-weight:700;
+    letter-spacing: 0.38px;
+
+}
+.subtitle {
+    background: rgba(20, 20, 20, 0.4)
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+}
+.main-text {
+    color: rgba(20, 20,20, 0.70);
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /*166.667% */
+    letter-spacing: 0.18px;
+    margin-top: 60px;
+}
+.title {
+    color: rgba(20, 20,20, 0.40);
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+}
+.colors{
+    margin-top: 65px;
+}
+.circle {
+    width: 16px;
+    height: 16px;
+    background: green;
+    border-radius: 50%;
+}
+.blue {
+    background-color: #013c7d ;
+}
+.green {
+    background-color: #63cba7;
+}
+.red {
+    background-color: #d52f29;
+}
+.black {
+    background-color: #141414;
+}
+.yellow {
+    background-color: #F2C723;
+}
+.selectedCircle {
+    width: 30px;
+    height: 30px;
+    box-shadow: 8px 8px 16px 0px rgba(81, 91, 117, 0.25);
+    border-radius: 50%;
+}
+.priceAndQuantity{
+    margin-top: 65px;
+}
+.quantity {
+    width: 80px;
+    color: rgba(20, 20,20, 0.80);
+    font-family: Rubik,  sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    border: none;
+    appearance: none;
+    background-image: url("./Assets/images/selectArrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 0 top 50%;
+}
+.price {
+color: rgba(20, 20, 20, 0.80);
+font-family: Rubik, sans-serif;
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+}
+.btn {
+width: 510px;
+height: 70px;
+background: #141414;
+flex-shrink: 0;
+color: #FFF;
+font-family: Rubik, sans-serif;
+font-size: 18px;
+font-weight: 500;
+letter-spacing: 0.18px;
+margin-top: 75px;
+}
