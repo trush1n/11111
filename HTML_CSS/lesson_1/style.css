@@ -13,10 +13,11 @@ section {
     box-shadow: 20px 20px 40px 0px rgba(81, 91, 117, 0.25);
     width: 1170px;
     height: 800px;
+    display: flex;
 }
 .product-image-block{
     border-right: 2px solid rgba(20, 20, 20, 0.15);
-    width: 540px ;
+    min-width: 540px ;
 }
 .selected {
 box-shadow: 8px 8px 16px 0px rgba(81, 91, 117, 0.25);
@@ -98,7 +99,7 @@ height: 80px;
     letter-spacing: 0.2px;
     border: none;
     appearance: none;
-    background-image: url("./Assets/images/selectArrow.svg");
+    background-image: url("./images/selectArrow.svg");
     background-repeat: no-repeat;
     background-position: right 0 top 50%;
 }
